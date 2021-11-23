@@ -1,0 +1,59 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: 'Acme', sans-serif;
+    background-color: black;
+}
+.main-container{
+    display: block;
+    width: 1100px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 60px;
+    background-color: white;
+    border: 3px solid black;
+    
+}
+.intro-container{
+    display: flex;
+    word-wrap: normal;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    flex-grow: 2;
+    margin-left: 10px;
+}
+.intro{
+    flex-grow: 2;
+    margin-left: 40px;
+}
+.photo,.summary h1 summary,p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.intro h1{
+    font-size: 60px;
+}
+#item{
+    font-size: 20px;
+}
+.summary h1 summary ,.education h1 summary,.skills h1 ,.head,.certification h1 ,.project h2, .personal h1{
+    text-decoration: underline;
+    color: rgb(85, 85, 202) ;
+}
+.summary p, .project, .personal li{
+    font-size: 20px;
+}
+.education ,.skills,.head ,.certification ,.project, .personal{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.project p{
+    margin-left: 40px;
+}
